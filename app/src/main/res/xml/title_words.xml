@@ -3,12 +3,19 @@
     <category id="0">
         <word>Chief</word>
         <word>Head</word>
+        <word>Home</word>
         <word>Local</word>
         <word>Public</word>
         <word>Regional</word>
         <word>Government</word>
+        <word>Domestic</word>
+        <word>Foreign</word>
         <word>World</word>
+        <word>National</word>
+        <word>International</word>
+        <word>Universal</word>
         <word>Famous</word>
+        <word>Notorious</word>
         <word>Mystery</word>
         <word>Secret</word>
         <word>Noble</word>
@@ -18,33 +25,44 @@
         <word>Star</word>
         <word>Superstar</word>
         <word>Extreme</word>
+        <word>Best</word>
+        <word>Undefeated</word>
         <word>Top</word>
         <word>First</word>
         <word>No. 1</word>
-        <word>Undefeated</word>
+        <word>Grade A</word>
         <word>Common</word>
         <word>Classic</word>
         <word>Old-School</word>
+        <word>Next-Gen</word>
+        <word>Modern</word>
         <word>Veteran</word>
         <word>Senior</word>
         <word>Junior</word>
         <word>Trainee</word>
+        <word>Student</word>
         <word>Newbie</word>
+        <word>Amateur</word>
+        <word>Novice</word>
         <word>Industrial</word>
         <word>Certified</word>
         <word>Professional</word>
+        <word>Expert</word>
+        <word>Master</word>
+        <word>Genius</word>
         <word>Hired</word>
-        <word>Amateur</word>
         <word>Enthusiast</word>
+        <word>Savant</word>
         <word>Trailblazer</word>
         <word>Automated</word>
         <word>Manual</word>
+        <word>Online</word>
         <word>Serial</word>
+        <word>Undercover</word>
+        <word>Freelancer</word>
+        <word>Consumer</word>
     </category>
     <category id="1">
-        <word>Master</word>
-        <word>Expert</word>
-        <word>Genius</word>
         <word>Guru</word>
         <word>Rockstar</word>
         <word>Champion</word>
@@ -52,56 +70,102 @@
         <word>Wizard</word>
         <word>Superhero</word>
         <word>Ghost</word>
-        <word>Space</word>
         <word>Astro</word>
-        <word>Quantum</word>
         <word>Fortune</word>
         <word>Inspirational</word>
-        <word>Undercover</word>
-        <word>Freelancer</word>
         <word>Contract</word>
         <word>Executive</word>
-        <word>Store</word>
+        <word>Operating</word>
+        <word>Operation</word>
+        <word>Business</word>
+        <word>Finance</word>
+        <word>Financial</word>
+        <word>Creative</word>
+        <word>Staff</word>
+        <word>Market</word>
+        <word>Marketing</word>
         <word>Construction</word>
         <word>Chemical</word>
         <word>Fashion</word>
         <word>Cosmetics</word>
         <word>Sanitation</word>
+        <word>Medical</word>
+        <word>Textile</word>
         <word>Culinary</word>
         <word>Food</word>
         <word>Animal</word>
         <word>Health</word>
         <word>Lifestyle</word>
+        <word>Fitness</word>
         <word>Sports</word>
+        <word>Pet</word>
+        <word>Nature</word>
+        <word>Climate</word>
+        <word>Human Rights</word>
+        <word>Political</word>
+        <word>Censorship</word>
         <word>Film</word>
         <word>Stage</word>
-        <word>Television</word>
+        <word>TV</word>
         <word>Literary</word>
         <word>Music</word>
-        <word>Financial</word>
+        <word>Event</word>
+        <word>Mechanical</word>
+        <word>Electrical</word>
+        <word>Electronics</word>
+        <word>Automotive</word>
+        <word>Tech</word>
+        <word>Technical</word>
+        <word>Technology</word>
+        <word>Telecom</word>
+        <word>Computer</word>
+        <word>Internet</word>
+        <word>Network</word>
+        <word>Software</word>
+        <word>Cyber</word>
+        <word>Data</word>
+        <word>Quantum</word>
+        <word>Nuclear</word>
+        <word>Aerospace</word>
+        <word>Space</word>
+        <word>Rocket</word>
+        <word>Security</word>
         <word>Bank</word>
+        <word>Store</word>
+        <word>Postal</word>
         <word>Travel</word>
         <word>Restaurant</word>
+        <word>Hotel</word>
+        <word>Prison</word>
         <word>Criminal</word>
-        <word>Software</word>
-        <word>Technical</word>
+        <word>Autopsy</word>
+        <word>Military</word>
+        <word>Army</word>
+        <word>Marine</word>
+        <word>War</word>
+        <word>Peace</word>
+        <word>Frontend</word>
+        <word>Backend</word>
+        <word>C++</word>
+        <word>Game</word>
+        <word>Story</word>
+        <word>Graphics</word>
+        <word>VFX</word>
+        <word>HR</word>
+        <word>HVAC</word>
         <word>Assistant</word>
         <word>Interior</word>
         <word>Exterior</word>
         <word>Outdoor</word>
-        <word>HR</word>
-        <word>HVAC</word>
-        <word>VFX</word>
         <word>Wood</word>
         <word>Water</word>
         <word>Metal</word>
         <word>Iron</word>
-        <word>Car</word>
+        <word>Jet</word>
         <word>Bike</word>
-        <word>Tech</word>
-        <word>Computer</word>
-        <word>Internet</word>
         <word>Assembly Line</word>
+        <word>Storage Floor</word>
+        <word>Toll Booth</word>
         <word>Customer Support</word>
         <word>Real Estate</word>
         <word>Intellectual Property</word>
@@ -112,59 +176,85 @@
         <word>Wedding</word>
         <word>Retirement</word>
         <word>Border</word>
+        <word>Customs</word>
+        <word>Football</word>
+        <word>Horse</word>
+        <word>District</word>
     </category>
     <category id="2">
+        <word>Expert</word>
         <word>Worker</word>
         <word>Laborer</word>
         <word>Clerk</word>
+        <word>Operator</word>
         <word>Assistant</word>
         <word>Server</word>
         <word>Salesman</word>
+        <word>Marketer</word>
         <word>Seller</word>
+        <word>Buyer</word>
         <word>Supplier</word>
+        <word>Producer</word>
+        <word>Manager</word>
         <word>Technician</word>
         <word>Engineer</word>
         <word>Scientist</word>
         <word>Physicist</word>
+        <word>Biologist</word>
         <word>Doctor</word>
         <word>Developer</word>
         <word>Inventor</word>
+        <word>Innovator</word>
         <word>Designer</word>
         <word>Planner</word>
         <word>Organizer</word>
         <word>Craftsman</word>
+        <word>Manufacturer</word>
         <word>Builder</word>
         <word>Carpenter</word>
         <word>Smith</word>
         <word>Miner</word>
+        <word>Photographer</word>
+        <word>Secretary</word>
+        <word>Lawyer</word>
+        <word>Advocate</word>
+        <word>Lobbyist</word>
+        <word>Chef</word>
+        <word>Farmer</word>
+        <word>Mechanic</word>
+        <word>Comedian</word>
         <word>Agent</word>
         <word>Official</word>
         <word>Officer</word>
+        <word>Minister</word>
         <word>Governor</word>
         <word>Senator</word>
+        <word>Ambassador</word>
         <word>Representative</word>
         <word>Politician</word>
         <word>Police Officer</word>
         <word>Detective</word>
         <word>Soldier</word>
+        <word>Commander</word>
+        <word>Captain</word>
+        <word>King</word>
+        <word>Queen</word>
         <word>Director</word>
+        <word>Scrum Master</word>
         <word>Creator</word>
         <word>Artist</word>
         <word>Critic</word>
         <word>Reviewer</word>
         <word>Reporter</word>
         <word>Messenger</word>
-        <word>Manager</word>
-        <word>Secretary</word>
-        <word>Lawyer</word>
-        <word>Chef</word>
-        <word>Farmer</word>
-        <word>Mechanic</word>
-        <word>Plumber</word>
         <word>Inspector</word>
+        <word>Analyst</word>
+        <word>Examiner</word>
+        <word>Researcher</word>
         <word>Journalist</word>
         <word>Newscaster</word>
         <word>Writer</word>
+        <word>Novelist</word>
         <word>Blogger</word>
         <word>Actor</word>
         <word>Speaker</word>
@@ -172,18 +262,22 @@
         <word>Advisor</word>
         <word>Teller</word>
         <word>Coach</word>
+        <word>Instructor</word>
         <word>Personality</word>
         <word>Man</word>
         <word>Woman</word>
+        <word>Boy</word>
+        <word>Girl</word>
         <word>Person</word>
         <word>Model</word>
         <word>Host</word>
         <word>Guide</word>
+        <word>Navigator</word>
         <word>Driver</word>
         <word>Controller</word>
         <word>Jockey</word>
         <word>Wrangler</word>
-        <word>Catcher</word>
+        <word>Handler</word>
         <word>Keeper</word>
         <word>Defender</word>
         <word>Ranger</word>
@@ -191,5 +285,6 @@
         <word>Player</word>
         <word>Importer</word>
         <word>Exporter</word>
+        <word>Activist</word>
     </category>
 </resources>
