@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
     private int displayedCategory = -1;
     private int displayedTitleCount = 10;
-    private int titleWordCount = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,8 +90,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayTitles() {
-        int wordsPerTitle = titleWordCount;
-
         for (int i = 0; i < titleSlots.size(); i++) {
             boolean emptySlot = i >= displayedTitleCount;
             if (emptySlot) {
@@ -108,14 +105,13 @@ public class MainActivity extends AppCompatActivity {
             titleNumberSlots.get(i).setText(numberText);
 
             // Creates the title
-            for (int j = 0; j < wordsPerTitle; j++) {
-                boolean isLastWord = j == wordsPerTitle - 1;
+            int wordCount = wordLists.size();
+            for (int j = 0; j < wordCount; j++) {
+                boolean isLastWord = j == wordCount - 1;
 
-                // TODO: Have wordsPerTitle make more sense.
-                //   Currently wordsPerTitle has to be 3 because a word from each category is used once.
                 title.append(getRandomWord(j));
 
-                if (!isLastWord) {
+                if (!isLastWord && title.length() > 0 && title.charAt(title.length() - 1) != '-') {
                     title.append(' ');
                 }
             }
