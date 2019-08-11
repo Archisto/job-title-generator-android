@@ -18,17 +18,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final int maxDisplayedTitles = 10;
-    private final int maxTitleWords = 5;
-
     private List<TextView> titleSlots;
     private List<TextView> titleNumberSlots;
-//    private MenuItem currentDisplayedCatItem;
-//    private MenuItem titleCountMenuItem;
-//    private MenuItem titleWordCountMenuItem;
-//    private ToggleButton titleDecorationsToggle;
-//    private EditText customTemplateInput;
-//    private MenuItem customTemplateToggle;
 
     private List<List<Word>> wordLists;
     private List<Word> allWords;
@@ -140,35 +131,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
-//        initMenu(menu);
-        initCategories(menu);
         return true;
-    }
-
-//    private void initMenu(Menu menu) {
-//        titleCountMenuItem = menu.findItem(R.id.submenu_titleCount);
-//        titleCountMenuItem.
-//            setTitle(String.format(getString(R.string.titleCount), displayedTitleCount));
-//
-//        titleWordCountMenuItem = menu.findItem(R.id.submenu_titleWordCount);
-//        titleWordCountMenuItem.
-//            setTitle(String.format(getString(R.string.titleWordCount), titleWordCount));
-//    }
-
-    private void initCategories(Menu menu) {
-//        currentDisplayedCatItem = menu.findItem(R.id.action_displayAll);
-//        currentDisplayedCatItem.setEnabled(false);
-//
-//        menu.findItem(R.id.action_displayCategory0).setTitle(String.format(
-//            getString(R.string.action_displayCategory), getString(R.string.category_feature)));
-//        menu.findItem(R.id.action_displayCategory1).setTitle(String.format(
-//            getString(R.string.action_displayCategory), getString(R.string.category_concept)));
-//        menu.findItem(R.id.action_displayCategory2).setTitle(String.format(
-//            getString(R.string.action_displayCategory), getString(R.string.category_thing)));
-//        menu.findItem(R.id.action_displayCategory3).setTitle(String.format(
-//            getString(R.string.action_displayCategory), getString(R.string.category_actorAndAction)));
-//        menu.findItem(R.id.action_displayCategory4).setTitle(String.format(
-//            getString(R.string.action_displayCategory), getString(R.string.category_placeAndTime)));
     }
 
     @Override
@@ -177,138 +140,6 @@ public class MainActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-//        if (handleSetTitleCount(id)) {
-//            return true;
-//        }
-//        else if (handleSetTitleWordCount(id)) {
-//            return true;
-//        }
-//        else if (handleDisplayedCategoryOptions(id, item)) {
-//            return true;
-//        }
-//        else if (handleCustomTemplateActivation(id, item)) {
-//            return true;
-//        }
-
         return super.onOptionsItemSelected(item);
     }
-
-    /*private boolean handleSetTitleCount(int id) {
-        switch (id) {
-            case R.id.action_setTitleCount_1: {
-                return setDisplayedTitleCount(1, maxDisplayedTitles);
-            }
-            case R.id.action_setTitleCount_2: {
-                return setDisplayedTitleCount(2, maxDisplayedTitles);
-            }
-            case R.id.action_setTitleCount_3: {
-                return setDisplayedTitleCount(3, maxDisplayedTitles);
-            }
-            case R.id.action_setTitleCount_4: {
-                return setDisplayedTitleCount(4, maxDisplayedTitles);
-            }
-            case R.id.action_setTitleCount_5: {
-                return setDisplayedTitleCount(5, maxDisplayedTitles);
-            }
-            case R.id.action_setTitleCount_6: {
-                return setDisplayedTitleCount(6, maxDisplayedTitles);
-            }
-            case R.id.action_setTitleCount_7: {
-                return setDisplayedTitleCount(7, maxDisplayedTitles);
-            }
-            case R.id.action_setTitleCount_8: {
-                return setDisplayedTitleCount(8, maxDisplayedTitles);
-            }
-            case R.id.action_setTitleCount_9: {
-                return setDisplayedTitleCount(9, maxDisplayedTitles);
-            }
-            case R.id.action_setTitleCount_10: {
-                return setDisplayedTitleCount(10, maxDisplayedTitles);
-            }
-        }
-
-        return false;
-    }
-
-    private boolean handleSetTitleWordCount(int id) {
-        switch (id) {
-            case R.id.action_setTitleWordCount_1: {
-                return setTitleWordCount(1, maxTitleWords);
-            }
-            case R.id.action_setTitleWordCount_2: {
-                return setTitleWordCount(2, maxTitleWords);
-            }
-            case R.id.action_setTitleWordCount_3: {
-                return setTitleWordCount(3, maxTitleWords);
-            }
-            case R.id.action_setTitleWordCount_4: {
-                return setTitleWordCount(4, maxTitleWords);
-            }
-            case R.id.action_setTitleWordCount_5: {
-                return setTitleWordCount(5, maxTitleWords);
-            }
-        }
-
-        return false;
-    }
-
-    private boolean handleDisplayedCategoryOptions(int id, MenuItem item) {
-        switch (id) {
-            case R.id.action_displayAll: {
-                return setDisplayedCategory(item, -1);
-            }
-            case R.id.action_displayCategory0: {
-                return setDisplayedCategory(item, 0);
-            }
-            case R.id.action_displayCategory1: {
-                return setDisplayedCategory(item, 1);
-            }
-            case R.id.action_displayCategory2: {
-                return setDisplayedCategory(item, 2);
-            }
-            case R.id.action_displayCategory3: {
-                return setDisplayedCategory(item, 3);
-            }
-            case R.id.action_displayCategory4: {
-                return setDisplayedCategory(item, 4);
-            }
-        }
-
-        return false;
-    }*/
-
-    /*private boolean setDisplayedTitleCount(int value, int max) {
-        if (value >= 1 && value <= max) {
-            displayedTitleCount = value;
-            titleCountMenuItem.
-                setTitle(String.format(getString(R.string.titleCount), displayedTitleCount));
-            return true;
-        }
-
-        return false;
-    }
-
-    private boolean setTitleWordCount(int value, int max) {
-        if (value >= 1 && value <= max) {
-            titleWordCount = value;
-            titleWordCountMenuItem.
-                setTitle(String.format(getString(R.string.titleWordCount), titleWordCount));
-            return true;
-        }
-
-        return false;
-    }
-
-    private boolean setDisplayedCategory(MenuItem item, int categoryId) {
-        if (categoryId < wordLists.size()) {
-            displayedCategory = categoryId;
-            item.setEnabled(false);
-            currentDisplayedCatItem.setEnabled(true);
-            currentDisplayedCatItem = item;
-            return true;
-        }
-
-        return false;
-    }*/
 }

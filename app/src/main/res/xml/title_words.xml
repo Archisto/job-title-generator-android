@@ -5,6 +5,7 @@
         <word>Head</word>
         <word>Home</word>
         <word>Local</word>
+        <word>Private</word>
         <word>Public</word>
         <word>Regional</word>
         <word>Government</word>
@@ -31,6 +32,7 @@
         <word>First</word>
         <word>No. 1</word>
         <word>Lead</word>
+        <word>Big</word>
         <word>Common</word>
         <word>Classic</word>
         <word>Old-School</word>
@@ -45,6 +47,7 @@
         <word>Amateur</word>
         <word>Novice</word>
         <word>Practicing</word>
+        <word>Rising</word>
         <word>Industrial</word>
         <word>University</word>
         <word>Certified</word>
@@ -53,12 +56,13 @@
         <word>Expert</word>
         <word>Master</word>
         <word>Genius</word>
-        <word>Big</word>
+        <word>Big-Shot</word>
         <word>Hired</word>
         <word>Enthusiast</word>
         <word>Savant</word>
         <word>Trailblazer</word>
         <word>Automated</word>
+        <word>Machine</word>
         <word>Manual</word>
         <word>Online</word>
         <word>Serial</word>
@@ -68,15 +72,24 @@
         <word>Seasonal</word>
         <word>Holiday</word>
         <word>Unemployed</word>
+        <word>Armchair</word>
         <word>Disqualified</word>
         <word>Retired</word>
         <word>Ex</word>
         <word>Rogue</word>
+        <word>Black Market</word>
+        <word>Extraterrestrial</word>
+        <word>Human-</word>
+        <word>Double</word>
+        <word>Neo-</word>
 
         <!-- Multiple copies to increase odds -->
         <word>Anti-</word>
         <word>Anti-</word>
         <word>Anti-</word>
+        <word>Counter-</word>
+        <word>Counter-</word>
+        <word>Counter-</word>
     </category>
     <category id="1">
         <word>General</word>
@@ -105,18 +118,25 @@
         <word>Finance</word>
         <word>Financial</word>
         <word>Stock</word>
+        <word>Transaction</word>
+        <word>Monetization</word>
+        <word>Profit</word>
+        <word>Charity</word>
         <word>Insurance</word>
         <word>Science</word>
         <word>Creative</word>
         <word>Staff</word>
+        <word>Reception</word>
         <word>Market</word>
         <word>Marketing</word>
+        <word>Language</word>
         <word>Construction</word>
         <word>Chemical</word>
         <word>Fashion</word>
         <word>Cosmetics</word>
         <word>Sanitation</word>
         <word>Medical</word>
+        <word>Pharmaceutical</word>
         <word>Textile</word>
         <word>Culinary</word>
         <word>Food</word>
@@ -130,6 +150,7 @@
         <word>Climate</word>
         <word>Human Rights</word>
         <word>Political</word>
+        <word>Communications</word>
         <word>Film</word>
         <word>Stage</word>
         <word>TV</word>
@@ -148,6 +169,7 @@
         <word>Tech</word>
         <word>Technical</word>
         <word>Technology</word>
+        <word>Machine</word>
         <word>Telecom</word>
         <word>Computer</word>
         <word>Internet</word>
@@ -176,6 +198,7 @@
         <word>Hotel</word>
         <word>Prison</word>
         <word>Criminal</word>
+        <word>Terrorist</word>
         <word>Narcotics</word>
         <word>Arms</word>
         <word>Autopsy</word>
@@ -229,22 +252,19 @@
         <word>Real Estate</word>
         <word>Intellectual Property</word>
         <word>Patent</word>
-        <word>Reception</word>
-        <word>Transaction</word>
         <word>Party</word>
         <word>Wedding</word>
         <word>Retirement</word>
-        <word>Border</word>
-        <word>Customs</word>
         <word>Football</word>
         <word>Horse</word>
         <word>Cow</word>
         <word>Fish</word>
+        <word>Eye</word>
         <word>Brain</word>
         <word>Heart</word>
         <word>Stunt</word>
         <word>Diving</word>
-        <word>Night</word>
+        <word>Play</word>
         <word>Demolition</word>
         <word>Excavation</word>
         <word>Publishing</word>
@@ -257,30 +277,46 @@
         <word>Rock</word>
         <word>Blues</word>
         <word>Jazz</word>
-        <word>Play</word>
+        <word>Law</word>
+        <word>Border</word>
+        <word>Immigration</word>
+        <word>Customs</word>
+        <word>Court</word>
         <word>Parole</word>
         <word>Freedom</word>
-        <word>Charity</word>
+        <word>Employment</word>
+        <word>Education</word>
         <word>University</word>
         <word>School</word>
         <word>Kindergarten</word>
         <word>Toy</word>
         <word>Idea</word>
+        <word>Innovation</word>
+        <word>Intelligence</word>
+        <word>Street</word>
+        <word>Day</word>
+        <word>Night</word>
     </category>
     <category id="2">
+        <word>Hero</word>
         <word>Guru</word>
         <word>Ninja</word>
+        <word>God</word>
         <word>Wizard</word>
+        <word>Magician</word>
         <word>Expert</word>
         <word>Worker</word>
         <word>Laborer</word>
+        <word>Operator</word>
+        <word>Operative</word>
+        <word>Enforcer</word>
         <word>Clerk</word>
         <word>Attendant</word>
-        <word>Operator</word>
         <word>Assistant</word>
         <word>Server</word>
         <word>Salesman</word>
         <word>Merchant</word>
+        <word>Vendor</word>
         <word>Trader</word>
         <word>Dealer</word>
         <word>Monger</word>
@@ -290,6 +326,7 @@
         <word>Supplier</word>
         <word>Producer</word>
         <word>Manager</word>
+        <word>Owner</word>
         <word>Technician</word>
         <word>Engineer</word>
         <word>Scientist</word>
@@ -306,6 +343,7 @@
         <word>Organizer</word>
         <word>Craftsman</word>
         <word>Manufacturer</word>
+        <word>Maker</word>
         <word>Builder</word>
         <word>Carpenter</word>
         <word>Smith</word>
@@ -315,6 +353,7 @@
         <word>Secretary</word>
         <word>Accountant</word>
         <word>Lawyer</word>
+        <word>Judge</word>
         <word>Advocate</word>
         <word>Lobbyist</word>
         <word>Chef</word>
@@ -328,6 +367,7 @@
         <word>Minister</word>
         <word>Governor</word>
         <word>Senator</word>
+        <word>President</word>
         <word>Ambassador</word>
         <word>Representative</word>
         <word>Politician</word>
@@ -397,7 +437,7 @@
         <word>Exporter</word>
         <word>Explorer</word>
         <word>Architect</word>
-        <word>Archeologist</word>
+        <word>Archaeologist</word>
         <word>Historian</word>
         <word>Spy</word>
         <word>Tailor</word>
@@ -406,7 +446,10 @@
         <word>Missionary</word>
         <word>Maid</word>
         <word>Bouncer</word>
+        <word>Translator</word>
         <word>Teller</word>
+        <word>Witness</word>
         <word>Pawn</word>
+        <word>Puppet</word>
     </category>
 </resources>
